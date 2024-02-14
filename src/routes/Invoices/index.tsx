@@ -5,8 +5,8 @@ export default function Invoices() {
 
   let invoices = getInvoices();
 
-    return (
-      <div style={{ display: "flex" }}>
+  return (
+    <div style={{ display: "flex" }}>
       <nav
         style={{
           borderRight: "solid 1px",
@@ -24,5 +24,5 @@ export default function Invoices() {
         ))}
       </nav>
     </div>
-    );
-  }
+  );
+}
